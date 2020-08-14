@@ -54,6 +54,11 @@ public class ProcessorController {
 		return mv;
 		
 	}
+	@RequestMapping(value="/pdf")
+	public void printPdf() {
+		PrintPdf p = new PrintPdf();
+		p.printPdfDoc();
+	}
 
 	/*
 	 * @RequestMapping(value = "/proceed", method = RequestMethod.POST) public

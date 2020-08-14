@@ -13,5 +13,8 @@
 	
 	<p>${out }</p>
 	
+	<p>You will receive your full order after two days. </p>
+	<a href="pdf"> Download your reciept</a>
+	
 </body>
 </html>
